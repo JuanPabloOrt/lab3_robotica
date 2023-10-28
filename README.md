@@ -5,7 +5,7 @@ El ros Fue implementado usando Ubunto y trbajandolo sobre una maquina virtual.
 
 Se utilizo Python 3.9.18, para el enlace entre ROS y Matlab, ademas de que es utilizado el Toolbox ROS tambien, por otro lado, es necesario hace enfasis en que se requirio que el ubuntu fuera el 20.04.
 
-#Conexion con matlab
+# Conexion con matlab
 
 Para realizar la conexion, fue necesario tener el toolbox ROS, con este toolbox se logra hacer la union de Matlab y ROS.
 
@@ -34,18 +34,24 @@ Por favor, ten en cuenta que los detalles específicos de la implementación dep
 
 A continuacion se muestra como se realizo el script en Matlab
 <p align="center"><img src=",ros_matlab.jpg" width=60%></p>
-![image](catkin.jpg)
+![image](https://github.com/JuanPabloOrt/lab3_robotica/blob/main/ros_matlab.jpg)
 
 Se observa como se ejecuta la pantalla de turtle node y se realiza el movimiento de la tortuga, siendo indicio de que fue correcta la instalcion del ROS y Matlab y la conexion de los nodos.
 
 #Creacion script Python
 
 El script se crea basado en las librerias brindadas en la guia, Se reconocen las teclas segun ASCII, luego se crea la funcion que lee las escritura de teclado, luego de eso se crea la funcion que obtiene la entrada del teclado y lo escibe al ROS para que este se mueva en la direcion deseada segund sea Presionado. son ASDW( izqu, abajo, derechac, arriba) R para mostras trayectoria, y espacio para movimiento instantaneo.
-<p align="center"><img src="./Herramienta,py.jpg" width=60%></p>
+<p align="center"><img src="./main,py.jpg" width=60%></p>
 
 
 # Creacion Entorno Hello_turtle
 
 Para la creacion del escenario, es preciso iniciar Ros en consola con el comando roscore.
-<p align="center"><img src="./Herramienta,roscore_run.jpg" width=60%></p>
+<p align="center"><img src="./main,roscore_run.jpg" width=60%></p>
+ Luego de esto, se realiza la creacion del entrono, todo con el tool catkin, Este tool determina cual va a ser el escenario donde va a estar la simulacion, o la prueba que se dessee realizar.
+
+Para realizar esto, es necesario tener presente los archivos de los repostiorios brindados en la guia, en especial el Hello_turtle https://github.com/felipeg17/hello_turtle/commits?author=fegonzalez7
+Luego de tener todos estos archivos, se organizan los ficheros, y se edita el CMakelist.txt, añadiendo en la seccion de lectura de script de python el realizado por nosotros que fue lab.py para la lectura de teclado y traduccion en movimiento de la tortuga. 
+
+
 
