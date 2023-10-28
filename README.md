@@ -33,25 +33,34 @@ Es importante tener en cuenta que ambos entornos deben tener acceso a las mismas
 Por favor, ten en cuenta que los detalles específicos de la implementación dependerán de tu configuración de ROS, la estructura de tu red, los mensajes y los comandos que necesites intercambiar entre MATLAB y Python.
 
 A continuacion se muestra como se realizo el script en Matlab
-<p align="center"><img src=",ros_matlab.jpg" width=60%></p>
-![image](https://github.com/JuanPabloOrt/lab3_robotica/blob/main/ros_matlab.jpg)
+![ros_matlab](https://github.com/JuanPabloOrt/lab3_robotica/assets/144562439/1df41383-c720-4144-86c8-169c9b65fabb)
+
 
 Se observa como se ejecuta la pantalla de turtle node y se realiza el movimiento de la tortuga, siendo indicio de que fue correcta la instalcion del ROS y Matlab y la conexion de los nodos.
 
-#Creacion script Python
+# Creacion script Python
+
+
 
 El script se crea basado en las librerias brindadas en la guia, Se reconocen las teclas segun ASCII, luego se crea la funcion que lee las escritura de teclado, luego de eso se crea la funcion que obtiene la entrada del teclado y lo escibe al ROS para que este se mueva en la direcion deseada segund sea Presionado. son ASDW( izqu, abajo, derechac, arriba) R para mostras trayectoria, y espacio para movimiento instantaneo.
-<p align="center"><img src="./main,py.jpg" width=60%></p>
+
+![py](https://github.com/JuanPabloOrt/lab3_robotica/assets/144562439/5e409677-205a-45a0-8360-95faaafce9d0)
 
 
 # Creacion Entorno Hello_turtle
 
 Para la creacion del escenario, es preciso iniciar Ros en consola con el comando roscore.
-<p align="center"><img src="./main,roscore_run.jpg" width=60%></p>
- Luego de esto, se realiza la creacion del entrono, todo con el tool catkin, Este tool determina cual va a ser el escenario donde va a estar la simulacion, o la prueba que se dessee realizar.
+![roscore](https://github.com/JuanPabloOrt/lab3_robotica/assets/144562439/e2496db4-d23f-4c0f-8467-af5925b0705f)
+
+Luego de esto, se realiza la creacion del entrono, todo con el tool catkin, Este tool determina cual va a ser el escenario donde va a estar la simulacion, o la prueba que se dessee realizar.
 
 Para realizar esto, es necesario tener presente los archivos de los repostiorios brindados en la guia, en especial el Hello_turtle https://github.com/felipeg17/hello_turtle/commits?author=fegonzalez7
 Luego de tener todos estos archivos, se organizan los ficheros, y se edita el CMakelist.txt, añadiendo en la seccion de lectura de script de python el realizado por nosotros que fue lab.py para la lectura de teclado y traduccion en movimiento de la tortuga. 
+![ficheros](https://github.com/JuanPabloOrt/lab3_robotica/assets/144562439/d09d72e3-f4a9-4795-9306-c6816f97f23e)
+
+
+Entonces se da la creacion de la carpeta SRC donde se añaden los launch y los scripts de python para la formacion del escenario, luego se  ejecuta y crea el escenario con el comando catkin_make y se compila un codigo de la sigueinte forma
+![catkin](https://github.com/JuanPabloOrt/lab3_robotica/assets/144562439/b49c3181-da0f-4673-b9ba-8bee279e327f)
 
 
 
