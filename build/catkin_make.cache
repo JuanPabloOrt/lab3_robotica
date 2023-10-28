@@ -1,0 +1,2 @@
+scripts
+-DCATKIN_DEVEL_PREFIX=/home/juan/Documentos/robotica/p2/devel -DCMAKE_INSTALL_PREFIX=/home/juan/Documentos/robotica/p2/install -G Unix Makefiles
