@@ -37,4 +37,14 @@ A continuacion se muestra como se realizo el script en Matlab
 
 Se observa como se ejecuta la pantalla de turtle node y se realiza el movimiento de la tortuga, siendo indicio de que fue correcta la instalcion del ROS y Matlab y la conexion de los nodos.
 
+#Creacion script Python
+
+El script se crea basado en las librerias brindadas en la guia, Se reconocen las teclas segun ASCII, luego se crea la funcion que lee las escritura de teclado, luego de eso se crea la funcion que obtiene la entrada del teclado y lo escibe al ROS para que este se mueva en la direcion deseada segund sea Presionado. son ASDW( izqu, abajo, derechac, arriba) R para mostras trayectoria, y espacio para movimiento instantaneo.
+<p align="center"><img src="./Herramienta,py.jpg" width=60%></p>
+
+
+# Creacion Entorno Hello_turtle
+
+Para la creacion del escenario, es preciso iniciar Ros en consola con el comando roscore.
+<p align="center"><img src="./Herramienta,roscore_run.jpg" width=60%></p>
 
