@@ -33,7 +33,7 @@ Es importante tener en cuenta que ambos entornos deben tener acceso a las mismas
 Por favor, ten en cuenta que los detalles específicos de la implementación dependerán de tu configuración de ROS, la estructura de tu red, los mensajes y los comandos que necesites intercambiar entre MATLAB y Python.
 
 A continuacion se muestra como se realizo el script en Matlab
-<p align="center"><img src="./Herramienta,ros_matlab.jpg" width=60%></p>
+<p align="center"><img src="./main,ros_matlab.jpg" width=60%></p>
 ![image](catkin.jpg)
 
 Se observa como se ejecuta la pantalla de turtle node y se realiza el movimiento de la tortuga, siendo indicio de que fue correcta la instalcion del ROS y Matlab y la conexion de los nodos.
