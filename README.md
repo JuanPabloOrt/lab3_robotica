@@ -34,7 +34,7 @@ Por favor, ten en cuenta que los detalles específicos de la implementación dep
 
 A continuacion se muestra como se realizo el script en Matlab
 <p align="center"><img src="./Herramienta,ros_matlab.jpg" width=60%></p>
-![image](https://github.com/JuanPabloOrt/lab3_robotica/blob/main/catkin.jpg)
+![image](catkin.jpg)
 
 Se observa como se ejecuta la pantalla de turtle node y se realiza el movimiento de la tortuga, siendo indicio de que fue correcta la instalcion del ROS y Matlab y la conexion de los nodos.
 
