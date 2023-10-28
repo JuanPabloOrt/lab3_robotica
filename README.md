@@ -62,5 +62,9 @@ Luego de tener todos estos archivos, se organizan los ficheros, y se edita el CM
 Entonces se da la creacion de la carpeta SRC donde se añaden los launch y los scripts de python para la formacion del escenario, luego se  ejecuta y crea el escenario con el comando catkin_make y se compila un codigo de la sigueinte forma
 ![catkin](https://github.com/JuanPabloOrt/lab3_robotica/assets/144562439/b49c3181-da0f-4673-b9ba-8bee279e327f)
 
+Se crean varios ficheros nuevos, estos son los escenarios para el proyecto deseado, desafortunadamente, al momento de ejecutar nuesto proyecto, se presento un error de lectura de los scripts de python, al cual se le trabajo a lo largo de varios dias, pero no se encontró el defecto dentro de Cmakelist.txt  Ya que el compilador no encuentra el script lab.py como se muestra acontinuación
+![error](https://github.com/JuanPabloOrt/lab3_robotica/assets/144562439/7d5d8d0c-e7b7-4f3e-9396-3b65b7d00312)
 
+Por lo cual no se pudo realizar la prueba de movimiento deseada. Esto se pudo deber a un error de creacion de escenario, o incluso un error dentro del script que puede anular todo el proyecto. Por esto se realizo en varias carpetas la creacion del escenario con el fin de realizar un debug del proyecto, pero siempre se llegó al mismo resultado. 
 
+Es importante antes de la creacion del script lector uy traductor del teclado a ovimiento realizar purebas de escritorio, para verificar paso a paso el funcionamiento correcto de este.
