@@ -2,6 +2,7 @@
 Theylor Amata
 Juan Pablo Ortiz
 2023-2 Robotica
+
 En este repositorio se explica el paso a paso del uso de ROS , Toolbox para matlab y creacion de un script en python para el movimiento del nodo turtle
 Para este laboratorio se utilizo el software libre ROS para linux, este corre en la version de Ubuntu 20.04.
 El ros Fue implementado usando Ubunto y trbajandolo sobre una maquina virtual.
